@@ -23,7 +23,7 @@ int main() {
         scanf("%f",&retrait);
         if(solde>=retrait)
         {
-            solde-=retrait;
+            solde-=retrait; //obligatoire
             printf("Nouveau solde %0.2f\n",solde);
         }
         else
