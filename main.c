@@ -19,7 +19,7 @@ int main() {
     else //equivalent choix==2
    {
        retrait:
-        printf("Combinen voulez-vous retirer?\n");
+        printf("Combien voulez-vous retirer?\n");
         scanf("%f",&retrait);
         if(solde>=retrait)
         {
